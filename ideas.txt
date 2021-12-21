@@ -1,9 +1,0 @@
-ideas:
--Programacion/lista en una ventana a la izquierda que se 	despliegue
-	Lunes> BORUTO
-       	NARUTO
-
--boton START CHALLENGE EN EL INICIO A LA IZQUIERDA Y A LA DERECHA HAY IMAGENES QUE SE DESPLAZAN AUTOMATICAMENTE DE ANIMES
- PASO 1 SELECCIONA EL ANIME Y HAY UNA GALERIA DE IMAGENES DE ANIME (SE DESPLAZA HACIA ABAJO).
- PASO 2 al hacer click entras y arriba tienes la portada, perfil de anime, descripcion, abajo de eso estan las opciones del reto (temporadas, capitulos, dias) BTN START, abajo de eso las miniaturas de los capitulos. 
-Accede a otra pagina con un cronometro arriba del todo y una lista de reproduccion de los capitulos abajo

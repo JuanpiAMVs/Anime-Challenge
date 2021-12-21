@@ -7,41 +7,47 @@
 	<link rel="stylesheet" href="../normalize.css">
 	<link rel="stylesheet" href="../CSS Anime Challenge.css">
 	<script src="../modernizr-custom.js"></script>
-    <title>Log in</title>
+    <title>Create Account</title>
 </head>
 <body>
-	<header>
-		<img src="../Assets/Juanpilogo.png" class="logo" alt="Logo">
-		<h1 class="title">
-			Anime Challenge
-		</h1>
-		<nav>
-			<ul>
-				<li class="nav_list"><a href="../index.html" id="Start_Challenge1">Start Challenge</a></li>
-				<li class="nav_list"><a href="../Sections/account.html">Account</a></li>
-				<li class="nav_list"><a href="../Sections/project.html">Aboutme</a></li> 
-			</ul>
-			
-		</nav>
-	</header>
-    </header>
-    <main class="form">
-        <h1>Create Account</h1>
-        <div>
-            <label for="UserName"><-UserName-></label>
-                  <input type="text"> 
-        </div>
-        <div>
-                  <label for="Email"><-Email-></label>
-                  <input type="email" name="email" id="email_account">
-     </div>
-     <div>
-        <label for="password"><-Password-></label>
-        <input type="password" name="user_password" id="password">
-     </div>
-         <input type="submit" value="Create Account" class="submit">
+    <div class="container_crAcc">
 
-    </main>
+        <div class="header">
+            <header>
+                <img src="../Assets/Juanpilogo.png" class="logo" alt="Logo">
+				<h1 class="title">
+					Anime Challenge
+				</h1>
+				<nav class="nav">
+					<ul>
+                        <li class="nav_list"><a href="../index.html" id="Start_Challenge1">Start Challenge</a></li>
+						<li class="nav_list"><a href="./Sections/project.html">Aboutme</a></li> 
+						<li class="nav_list"><a href="./Sections/account.html">Account</a></li>
+					</ul>
+				</nav>
+            </header>        
+        </div>
+
+        <div class="main_form" id="create">
+            <main class="form">
+                <h1>Create Account</h1>
+                <div>
+                    <label for="UserName"><-UserName-></label>
+                          <input type="text"> 
+                </div>
+                <div>
+                          <label for="Email"><-Email-></label>
+                          <input type="email" name="email" id="email_account">
+             </div>
+             <div>
+                <label for="password"><-Password-></label>
+                <input type="password" name="user_password" id="password">
+             </div>
+                 <input type="submit" value="Create Account" class="submit">
+        
+            </main>
+        </div>
+      </div>
 
 </body>
 </html>

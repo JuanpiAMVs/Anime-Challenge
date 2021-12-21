@@ -11,37 +11,42 @@
     <title>Account</title>
 </head>
 <body>
-	<header>
-		<img src="../Assets/Juanpilogo.png" class="logo" alt="Logo">
-		<h1 class="title">
-			Anime Challenge
-		</h1>
-		<nav>
-			<ul>
-				<li class="nav_list"><a href="../index.html" id="Start_Challenge1">Start Challenge</a></li>
-				<li class="nav_list"><a href="../Sections/account.html"">Account</a></li>
-				<li class="nav_list"><a href="../Sections/project.html">Aboutme</a></li> 
-			</ul>
-			
-		</nav>
-	</header>
+    <div class="container_log">
 
-    <main class="form">
-        <h1>Log in</h1>
-        <div>
-                  <label for="Email">Email</label>
-                  <input type="email" name="email" id="email_account">
-     </div>
-     <div>
-        <label for="password">Password</label>
-        <input type="password" name="user_password" id="password">
-     </div>
-         <input type="submit" value="Log in" class="submit">
-         <div class="Create_Account">
-            <a href="../Sections/create_account.html">CREATE ACCOUNT</a>
-         </div>
+        <div class="header">
+            <header>
+                <img src="../Assets/Juanpilogo.png" class="logo" alt="Logo">
+				<h1 class="title">
+					Anime Challenge
+				</h1>
+				<nav class="nav">
+					<ul>
+						<li class="nav_list"><a href="../index.html" id="Start_Challenge1">Start Challenge</a></li>
+						<li class="nav_list"><a href="./project.html">Aboutme</a></li> 
+						<li class="nav_list"><a href="#">Account</a></li>
+					</ul>
+				</nav>
+            </header>
+        </div>
 
-    </main>
+        <div class="main_form">
+            <main class="form">
+                <h1>Log in</h1>
+                <div>
+                          <label for="Email">Email</label>
+                          <input type="email" name="email" id="email_account">
+             </div>
+             <div>
+                <label for="password">Password</label>
+                <input type="password" name="user_password" id="password">
+             </div>
+                 <input type="submit" value="Log in" class="submit">
+                 <div class="Create_Account">
+                    <a href="../Sections/create_account.html">CREATE ACCOUNT</a>
+                 </div>    
+            </main>
+        </div>
+    </div>
 
 </body>
 </html>
