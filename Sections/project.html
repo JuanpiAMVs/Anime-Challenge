@@ -4,32 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../normalize.css">
 	<link rel="stylesheet" href="../CSS Anime Challenge.css">
-	<script src="../modernizr-custom.js"></script>
+    <script src="https://kit.fontawesome.com/5e4dbde80c.js" crossorigin="anonymous"></script>
     <title>Projects</title>
 </head>
 <body>
-    <div class="container_projects">
-
-        <div class="header">
-            <header>
-                <img src="../Assets/Juanpilogo.png" class="logo" alt="Logo">
-                <h1 class="title">
-                    Anime Challenge
-                </h1>
-                <nav>
-                    <ul>
-                        <li class="nav_list"><a href="../index.html" id="Start_Challenge1">Start Challenge</a></li>
-                        <li class="nav_list"><a href="../Sections/project.html">Aboutme</a></li> 
-                        <li class="nav_list"><a href="../Sections/account.html"">Account</a></li>
-                    </ul>
-                    
-                </nav>
-            </header>
-        </div>
-
-        <div class="main_projects">
+    <div class="container-fluid overflow-hidden">
+		<div class="header">
+			<header>
+				<nav class="navbar navbar-light d-flex justify-content-around mh-50" id="nav">
+					  <a class="navbar-brand href="#">
+						<img class="rounded-circle" src="../Assets/Juanpilogo.png" alt="" width="55">
+					  </a>
+					<h1 class="title">
+						Anime Challenge
+					</h1>
+					<ul class="nav justify-content-end">
+						<li class="nav-item">
+						  <a class="nav-link active" id="Start_Challenge" aria-current="page" href="/index.html">Start Challenge</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link text-white" href="#">About me</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="/Sections/account.html">Account</a>
+						</li>
+					  </ul>
+				</nav>				  
+			</header>	
+		</div>
+        <div class="container">
             <main>
                 <div class="presentation">
                     <h1>Hello, this page was created as a project within a CoderHouse course</h1>
@@ -37,29 +43,34 @@
         
                 </div>
                 <section class="projects">
-                <h1>My projects</h1>
-                <h1>TikTok</h1>
-                <div class="galery_about">
-                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@juanpiamvs/video/6977457223559613701" data-video-id="6977457223559613701" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@juanpiamvs" href="https://www.tiktok.com/@juanpiamvs">@juanpiamvs</a> <p>7w7 <a title="erzascarlet" target="_blank" href="https://www.tiktok.com/tag/erzascarlet">##erzascarlet</a> <a title="lucyheartfilia" target="_blank" href="https://www.tiktok.com/tag/lucyheartfilia">##lucyheartfilia</a> <a title="akenohimejima" target="_blank" href="https://www.tiktok.com/tag/akenohimejima">##akenohimejima</a> <a title="riasgremory" target="_blank" href="https://www.tiktok.com/tag/riasgremory">##riasgremory</a> <a title="animeedit" target="_blank" href="https://www.tiktok.com/tag/animeedit">##animeedit</a></p> <a target="_blank" title="♬ sonido original - Juanpi Amv's" href="https://www.tiktok.com/music/sonido-original-6977457135948925702">♬ sonido original - Juanpi Amv's</a> </section> </blockquote><script async src="https://www.tiktok.com/embed.js"></script>
-        
-                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@juanpiamvs/video/6999888008115801349" data-video-id="6999888008115801349" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@juanpiamvs" href="https://www.tiktok.com/@juanpiamvs">@juanpiamvs</a> <p>Final Spark Studios&#47;Montero MEP&#47; My part  <a title="animeedit" target="_blank" href="https://www.tiktok.com/tag/animeedit">##animeedit</a> <a title="amv_anime" target="_blank" href="https://www.tiktok.com/tag/amv_anime">##amv_anime</a> <a title="amv" target="_blank" href="https://www.tiktok.com/tag/amv">##amv</a> <a title="lucyheartfilia" target="_blank" href="https://www.tiktok.com/tag/lucyheartfilia">##lucyheartfilia</a> <a title="aftereffects" target="_blank" href="https://www.tiktok.com/tag/aftereffects">##aftereffects</a> <a title="fairytail" target="_blank" href="https://www.tiktok.com/tag/fairytail">##fairytail</a> <a title="fairytailedit" target="_blank" href="https://www.tiktok.com/tag/fairytailedit">##fairytailedit</a></p> <a target="_blank" title="♬ sonido original - Juanpi Amv's" href="https://www.tiktok.com/music/sonido-original-6999887552778062598">♬ sonido original - Juanpi Amv's</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                <h1 class="shadow p-3 mb-5 bg-body rounded">My projects</h1>
+                <div class="row text-center fs-2 d-block"
+                    <h1><i class="fab fa-tiktok" style="width: auto;"></i>TikTok</h1>
+                    <div class="galery_about">
+                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@juanpiamvs/video/6977457223559613701" data-video-id="6977457223559613701" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@juanpiamvs" href="https://www.tiktok.com/@juanpiamvs">@juanpiamvs</a> <p>7w7 <a title="erzascarlet" target="_blank" href="https://www.tiktok.com/tag/erzascarlet">##erzascarlet</a> <a title="lucyheartfilia" target="_blank" href="https://www.tiktok.com/tag/lucyheartfilia">##lucyheartfilia</a> <a title="akenohimejima" target="_blank" href="https://www.tiktok.com/tag/akenohimejima">##akenohimejima</a> <a title="riasgremory" target="_blank" href="https://www.tiktok.com/tag/riasgremory">##riasgremory</a> <a title="animeedit" target="_blank" href="https://www.tiktok.com/tag/animeedit">##animeedit</a></p> <a target="_blank" title="♬ sonido original - Juanpi Amv's" href="https://www.tiktok.com/music/sonido-original-6977457135948925702">♬ sonido original - Juanpi Amv's</a> </section> </blockquote><script async src="https://www.tiktok.com/embed.js"></script>
+            
+                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@juanpiamvs/video/6999888008115801349" data-video-id="6999888008115801349" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@juanpiamvs" href="https://www.tiktok.com/@juanpiamvs">@juanpiamvs</a> <p>Final Spark Studios&#47;Montero MEP&#47; My part  <a title="animeedit" target="_blank" href="https://www.tiktok.com/tag/animeedit">##animeedit</a> <a title="amv_anime" target="_blank" href="https://www.tiktok.com/tag/amv_anime">##amv_anime</a> <a title="amv" target="_blank" href="https://www.tiktok.com/tag/amv">##amv</a> <a title="lucyheartfilia" target="_blank" href="https://www.tiktok.com/tag/lucyheartfilia">##lucyheartfilia</a> <a title="aftereffects" target="_blank" href="https://www.tiktok.com/tag/aftereffects">##aftereffects</a> <a title="fairytail" target="_blank" href="https://www.tiktok.com/tag/fairytail">##fairytail</a> <a title="fairytailedit" target="_blank" href="https://www.tiktok.com/tag/fairytailedit">##fairytailedit</a></p> <a target="_blank" title="♬ sonido original - Juanpi Amv's" href="https://www.tiktok.com/music/sonido-original-6999887552778062598">♬ sonido original - Juanpi Amv's</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                    </div>
                 </div>
-                        <h1>Instagram</h1>
+                <div class="row text-center fs-2 d-block"
+                        <h1><i class="fab fa-instagram"style="width: auto;"></i>Instagram</h1>
                     <div class="galery_about">
                         <iframe width="560" height="400" src="https://www.instagram.com/p/CCR00JQH-Vu/embed" frameborder="0"></iframe>
                         <iframe width="560" height="400" src="https://www.instagram.com/p/COCNj_xHUrS/embed" frameborder="0"></iframe>
                     </div>
-        
-                        <h1>YouTube</h1>
+                </div>
+                <div class="row  text-center fs-2 d-block">
+                        <h1><i class="fab fa-youtube" style="width: auto;"></i>YouTube</h1>
                         <div class="galery_about">
                             <video id="video" src="../assets/CU Part 6-1.mp4" controls width="560px" height="360px"></video>
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/ux3W55MElrY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
-            </section>
-                  
+                    </div>
+            </section>               
             </main>
         </div>
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

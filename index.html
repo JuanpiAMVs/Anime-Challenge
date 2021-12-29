@@ -6,163 +6,214 @@
 	<meta name="keywords" content="Anime, Manga, Series">
 	<meta name="author" content="JuanpiAMVs">
 	<link rel="icon" href="Juanpi Partner - copia.ico">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" href="./normalize.css">
 	<link rel="stylesheet" href="CSS Anime Challenge.css">
-	<script src="./modernizr-custom.js"></script>
 	<title>Anime Challenge</title>
 
 </head>
 <body>
-	<div class="container">
+	<div class="container-fluid overflow-hidden">
 		<div class="header">
 			<header>
-	<!--			<nav class="Calendario">
-					<h3>Calendar</h3>
-					<ul class="li_calendario">
-						<li>Monday
-							<ul class="subli_calendario">
-								<li>Kyuuketsuki Sugu Shinu</li>
-								<li>Dou Shen Ji</li>
-								<li>Shinka no Mi: Shiranai Uchi ni Kachigumi Jinsei</li>
-								<li>Kyoukai Senki</li>
-							</ul>
+				<nav class="navbar navbar-light d-flex justify-content-around mh-50" id="nav">
+					  <a class="navbar-brand href="#">
+						<img class="rounded-circle" src="./Assets/Juanpilogo.png" alt="" width="55">
+					  </a>
+					<h1 class="title">
+						Anime Challenge
+					</h1>
+					<ul class="nav justify-content-end">
+						<li class="nav-item">
+						  <a class="nav-link active" id="Start_Challenge" aria-current="page" href="#">Start Challenge</a>
 						</li>
-						<li>Tuesday
-							<ul class="subli_calendario">
-								<li>Takt Op. Destiny</li>
-								<li>Kaginado</li>
-								<li>Deep Insanity: The Lost Child</li>
-							</ul>
+						<li class="nav-item">
+						  <a class="nav-link text-white" href="./Sections/project.html">About me</a>
 						</li>
-						<li>Wednesday
-							<ul class="subli_calendario">
-								<li>Heike Monogatari</li>
-								<li>Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru</li>
-							</ul>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="./Sections/account.html">Account</a>
 						</li>
-						<li>Thursday
-							<ul class="subli_calendario">
-								<li>Scarlet Nexus</li>
-								<li>Sakugan</li>
-							</ul>
-						</li>
-						<li>Friday
-							<ul class="subli_calendario">
-								<li>Selection Project</li>
-								<li>Visual Prision</li>
-							</ul>
-						</li>
-						<li>Saturday
-							<ul class="subli_calendario">
-								<li>Hanyou no Yashahime: Sengoku Otogizoushi - Ni no Shou</li>
-								<li>Saihate no Paladin</li>
-							</ul>
-						</li>
-						<li>Sunday
-							<ul class="subli_calendario">
-								<li>Boruto:Naruto Next Generations</li>
-								<li>Sankaku Mado no Satogawa wa Yoru</li>
-							</ul>
-						</li>
-					</ul>
-				</nav>
-				-->	
-				<img src="./Assets/Juanpilogo.png" class="logo" alt="Logo">
-				<h1 class="title">
-					Anime Challenge
-				</h1>
-				<nav class="nav">
-					<ul>
-						<li class="nav_list" id=Start_Challenge>Start challenge</li>
-						<li class="nav_list"><a href="./Sections/project.html">Aboutme</a></li> 
-						<li class="nav_list"><a href="./Sections/account.html">Account</a></li>
-					</ul>
-				</nav>
-			</header>
-		
+					  </ul>
+				</nav>				  
+			</header>	
 		</div>
-		<section class="section1">
-			<div class="slide">
-				<div>
-					<h2>TREND NOW</h2>
-				</div>
-				<ul>
-					<li><img src="./Assets/3-31084_wallpaper-anime-girl-anime-artist-artwork-digital-anime.jpg" alt=""></li>
-					<li><img src="./Assets/boruto-anime-hd-4k-wallpaper-preview.jpg" alt=""></li>
-					<li><img src="./Assets/thumb-1920-976013.jpg" alt=""></li>
-					<li><img src="./Assets/6319352.jpg" alt=""></li>
-					<li><img src="./Assets/descargar.jpg" alt=""></li>
-				</ul>
+			<!--			<nav class="Calendario">
+							<h3>Calendar</h3>
+							<ul class="li_calendario">
+								<li>Monday
+									<ul class="subli_calendario">
+										<li>Kyuuketsuki Sugu Shinu</li>
+										<li>Dou Shen Ji</li>
+										<li>Shinka no Mi: Shiranai Uchi ni Kachigumi Jinsei</li>
+										<li>Kyoukai Senki</li>
+									</ul>
+								</li>
+								<li>Tuesday
+									<ul class="subli_calendario">
+										<li>Takt Op. Destiny</li>
+										<li>Kaginado</li>
+										<li>Deep Insanity: The Lost Child</li>
+									</ul>
+								</li>
+								<li>Wednesday
+									<ul class="subli_calendario">
+										<li>Heike Monogatari</li>
+										<li>Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru</li>
+									</ul>
+								</li>
+								<li>Thursday
+									<ul class="subli_calendario">
+										<li>Scarlet Nexus</li>
+										<li>Sakugan</li>
+									</ul>
+								</li>
+								<li>Friday
+									<ul class="subli_calendario">
+										<li>Selection Project</li>
+										<li>Visual Prision</li>
+									</ul>
+								</li>
+								<li>Saturday
+									<ul class="subli_calendario">
+										<li>Hanyou no Yashahime: Sengoku Otogizoushi - Ni no Shou</li>
+										<li>Saihate no Paladin</li>
+									</ul>
+								</li>
+								<li>Sunday
+									<ul class="subli_calendario">
+										<li>Boruto:Naruto Next Generations</li>
+										<li>Sankaku Mado no Satogawa wa Yoru</li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+						-->	
+		<section class="row d-flex py-4 d-flex align-items-center justify-content-center" id="section1">
+			<div class="col-xl-7 col-lg-12" id="slide">
+				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-indicators">
+					  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					</div>
+					<div class="carousel-inner">
+					  <div class="carousel-item active">
+						<img src="./Assets/boruto-anime-hd-4k-wallpaper-preview.jpg" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+						  <h5>Boruto: Naruto Next Gen.</h5>
+						  <p>Some representative placeholder content for the first slide.</p>
+						</div>
+					  </div>
+					  <div class="carousel-item">
+						<img src="./Assets/thumb-1920-1081458.jpg" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+						  <h5>Shingeki no Kyojin</h5>
+						  <p>Some representative placeholder content for the second slide.</p>
+						</div>
+					  </div>
+					  <div class="carousel-item">
+						<img src="./Assets/Demon-Slayer-Kimetsu-No-Yaiba-Wallpapers-2020.png" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+						  <h5>Kimetsu no Yaiba</h5>
+						  <p>Some representative placeholder content for the third slide.</p>
+						</div>
+					  </div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					  <span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					  <span class="visually-hidden">Next</span>
+					</button>
+				  </div>
 			</div>
-		
-			<nav class="guide">
-				<ol>
-					<li>Sign up</li>
-					<li>Customize your profile</li>
-					<li>Select your <a href="#section2_1">anime</a></li>
-					<li>Select seasons and chapters</li>
-					<li>Select how many days you want to do the challenge</li>
-				</ol>	
-			</nav>
-
-			
-			
-		</section>
-
-		<div class="section2_main">
+			<div class="col-3">
+				<nav class="guide">
+					<ol>
+						<li>Sign up</li>
+						<li>Customize your profile</li>
+						<li>Select your <a href="#section2_1">anime</a></li>
+						<li>Select seasons and chapters</li>
+						<li>Select how many days you want to do the challenge</li>
+					</ol>	
+				</nav>
+			</div>			
+		</section>		
+		<div class="row">
 			<div style="margin-top: 0px;"
-			<div style="height: 10px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 30%; width: 100%;"><path d="M0.00,49.98 C196.66,75.50 394.19,-42.91 500.00,49.98 L500.00,150.00 L-0.84,150.50 Z" style="stroke: none; fill: rgb(24, 25, 125);" id="section2_1"></path></svg></div>
+			<div style="height: 10px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 15%; width: 100%;"><path d="M0.00,49.98 C196.66,75.50 394.19,-42.91 500.00,49.98 L500.00,150.00 L-0.84,150.50 Z" style="stroke: none; fill: rgb(24, 25, 125);" id="section2_1"><h3 class="recently">recently added</h3></path></svg>
+
 				<section class="section2" id="section2">
-					<div class="galeria">
-						<h3>recently added</h3>
-						<a href="./Animes/"><img src="./Assets/tokyo ghoul.jpg" alt="Tokyo Ghoul"></a>	
-						<img src="./Assets/Mushoku tensei.jpg" alt="">
-						<a href="./Animes/Kimetsu no Yaiba.html"><img src="./Assets/kimetsu no yaiba.jpg" alt=""></a>	
-						<img src="./Assets/The_End_of_Evangelion_DVD.jpg" alt="">
-						<img src="./Assets/bleach.jpg" alt="">
-						<img src="./Assets/Dr Stone.jpg" alt="">
-						<img src="./Assets/Hunter-X-1000__07928.1586573243.jpg" alt="">
+					<div class="galeria d-flex flex-wrap">
+						<div class="col-xxl-1 col-lg-2">
+							<a href="./Animes/"><img src="./Assets/tokyo ghoul.jpg" alt="Tokyo Ghoul"></a>	
+						</div>
+						<div class="col-xxl-1 col-lg-2">
+							<a href="./Animes/Kimetsu no Yaiba.html"><img src="./Assets/kimetsu no yaiba.jpg" alt=""></a>	
+						</div>
+						<div class="col-xxl-1 col-lg-2">
+							<img src="./Assets/The_End_of_Evangelion_DVD.jpg" alt="">
+						</div>
+						<div class="col-xxl-1 col-lg-2">
+							<img src="./Assets/bleach.jpg" alt="">
+						</div>
+						<div class="col-xxl-1 col-lg-2">
+							<img src="./Assets/Dr Stone.jpg" alt="">
+						</div>
+						<div class="col-xxl-1 col-lg-2">
+							<img src="./Assets/Hunter-X-1000__07928.1586573243.jpg" alt="">
+						</div>
+						<div class="col-xxl-1 col-lg-2">
+							<img src="./Assets/Mushoku tensei.jpg" alt="">
+						</div>
+						<div class="col-xxl-1 col-lg-2">											
 						<img src="./Assets/SAO_Alicization_Key_Visual.jpg" alt="">
+						</div>
 					</div>
 					<div id="galery_cat">
 						<a href=""><img src="./Assets/menu.png" alt=""></a>
 						<a href="">MORE CATEGORIES</a>	
 					</div>
+				</div>
 				</section>
-			</div>
-
-
-			<div class="footer">
+		</div>
+			<div class="row">
 				<footer>
 					<figure>
-						<div class="Logos_Footer">
-							<a href="https://www.patreon.com/juanpiamvs"><img src="./Assets/Juanpi Partner.png" alt="JuanpiAMVs" class="PruebaImagen"></a>
-							<div class="capa">
-								<a href="https://www.patreon.com/juanpiamvs"><img src="./Assets/Patreon logo.png" alt="Patreon_logo"></a>
+						<div class="col-4">
+							<div class="Logos_Footer">
+								<a href="https://www.patreon.com/juanpiamvs"><img src="./Assets/Juanpi Partner.png" alt="JuanpiAMVs" class="PruebaImagen"></a>
+								<div class="capa">
+									<a href="https://www.patreon.com/juanpiamvs"><img src="./Assets/Patreon logo.png" alt="Patreon_logo"></a>
+								</div>
 							</div>
 						</div>
-						
-						<div class="Logos_Footer">
-							<a href="https://www.instagram.com/is.juanpi_amvs/"> <img src="./Assets/JuanpiIG.png" alt="JuanpiAMVs" class="PruebaImagen"></a>
-							<div class="capa">
-								<a href="https://www.instagram.com/is.juanpi_amvs/"><img src="./Assets/Instagram-logo.png" alt="IG_Logo"></a>
+						<div class="col-4">
+							<div class="Logos_Footer">
+								<a href="https://www.instagram.com/is.juanpi_amvs/"> <img src="./Assets/JuanpiIG.png" alt="JuanpiAMVs" class="PruebaImagen"></a>
+								<div class="capa">
+									<a href="https://www.instagram.com/is.juanpi_amvs/"><img src="./Assets/Instagram-logo.png" alt="IG_Logo"></a>
+								</div>
 							</div>
-						</div>
-						
-						<div class="Logos_Footer">
-						<a href="https://www.youtube.com/channel/UCvNb5lEsU6RZhX9fgfJGKYg"><img src="./Assets/JuanpiYT.jpg" alt="JuanpiAMVs" class="PruebaImagen"></a>
-						<div class="capa">
-							<a href="https://www.youtube.com/channel/UCvNb5lEsU6RZhX9fgfJGKYg"><img src="./Assets/YouTube_icon.png" alt="" style="height: 80px;"></a>
 							
 						</div>
-					</div>	
-					
-				</figure>
-			</footer>
-			
-		</div>
+						<div class="col-4">
+							<div class="Logos_Footer">
+								<a href="https://www.youtube.com/channel/UCvNb5lEsU6RZhX9fgfJGKYg"><img src="./Assets/JuanpiYT.jpg" alt="JuanpiAMVs" class="PruebaImagen"></a>
+								<div class="capa">
+									<a href="https://www.youtube.com/channel/UCvNb5lEsU6RZhX9fgfJGKYg"><img src="./Assets/YouTube_icon.png" alt="" style="height: 80px;"></a>
+								</div>
+							</div>	
+						</div>
+	
+				    </figure>
+			    </footer>		
+		    </div>
 	</div>
 </div>
-
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
