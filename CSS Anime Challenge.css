@@ -109,7 +109,6 @@ header{
 .slide{
 	width: 80%;
 	overflow: hidden;
-	height: 450px;
 	position: relative;
 	box-shadow: 2px 2px 5px 1px;
 	border-radius: 10px;
@@ -192,6 +191,9 @@ header{
 	height: 40%;
 	position: relative;
 	display: flex;
+}
+div>svg{
+	height: 15%;
 }
 
 .galeria{
@@ -303,7 +305,10 @@ margin-top: 100px;
 .section2_anime_galery>img{
 	width: 250px;
 }
-
+.section2_anime_galery>img:hover{
+	transition: all 500ms ease-in-out;
+	transform: scale(1.2);
+}
 
 
 
@@ -450,45 +455,82 @@ figure>div> .Logos_Footer:hover> a > img{
 }
 
 										/*////////////////////////////////////////////////////////////////////////media queries////////////////////////////////////////*/
-@media screen and (max-width: 360px) {
+
+@media screen and (max-width: 1750px) {
+	.slide{
+		box-shadow: none;
+	}
+}
+@media screen and (max-width: 1400px) {
+	.section2{ 
+		height: 60%;
+	}
+}
+@media screen and (max-width: 1200px) {
+	body{
+		background-size: 210%;
+		background-position-x: 20%;
+	}			
+
+	
+	#section1{
+		display: flex;
+		justify-content: center;
+	}
+	#slide{
+		display: flex;
+		justify-content: center;
+		height: 70%;
+	}
+	.section2{ 
+		height: 70%;
+}
+}
+@media screen and (max-width: 946px) {
+	body{
+		background-size: 310%;
+		background-position-x: 20%;
+	}			
+	.section2{ 
+		height: 85%;
+}
+}
+@media screen and (max-width: 713px) {
+	body{
+		background-size: 380%;
+		background-position-x: 20%;
+	}	
+	.section2{ 
+		height: 85%;
+}
+}
+@media screen and (max-width: 499px) {
 	body{
 
 		font-family: 'Montserrat', sans-serif;
-	}
-	.container{
-		overflow: hidden;
-	}
+	}			
 
-																			/*nav*/
-				
-				.logo{
-					width: 50px;
-					padding: 5px;
-				}
-							
-				.nav_list{
-					font-size: 10px;
-					padding: 0 20px;
-				}
-
-	.section1{
-		max-width: 100%;	
+	#section1{
+		max-width: 105%;	
 		display: inline-block;
+		display: flex;
 		overflow: hidden;
 		background-size: 220vh;
 		background-position-x: -300px;
 		background-image: url(./Assets/katana-anime-girl-neon-4k-9s.jpg);
 		background-repeat: no-repeat;
 		background-color:#050A30;
-		
+	}
 
+	#slide{
+		width: 100%;
+		height: 100%;
+		position: relative;
 	}
 	.slide{
 		width: 100%;
-		height: 20%;
-		position: relative;
+		height: 100%;
 	}
-
 	.slide>div>h2{
 		top: 10px;
 		left: 35%;
@@ -518,9 +560,16 @@ figure>div> .Logos_Footer:hover> a > img{
 		font-size: 1rem;
 	}
 	.section2{ 
-		margin-top: -200px;
-		height: auto;
-		
+		height: auto;		
+	}
+	.path{
+		height:-35%;
+	}
+div>svg{
+	height: 4%;
+}
+	.path-sect2{
+		margin-top:-35px;
 	}
 	.galeria{
 		flex-wrap: wrap;
@@ -531,30 +580,25 @@ figure>div> .Logos_Footer:hover> a > img{
 		padding-bottom: 60px;
 		position: relative;
 	}
-	.galeria>h3{
-		position: absolute;
-		left: 3%;
+	.recently{
 		font-size: 2rem;
-		color: white;
-		top: -10%;
-
 	}
-	.galeria>img{
-		width: 150px;
-		height: 250px;
+	.galeria>div>img{
+		width: 130px;
+		height: 180px;
 		border-radius: 10px;
-		padding-bottom: 10px;
+		margin-bottom: 15px;
 	}
-	.galeria>a>img{
-		width: 150px;
-		height: 250px;
+	.galeria>div>a>img{
+		width: 130px;
+		height: 180px;
 		border-radius: 10px;
+		margin-bottom: 15px;
+		
 	}
 	.section2{ 
-		margin-top: -200px;
 		height: auto;
 		display: inline-block;
-
 	}
 
 	.section2>p{
@@ -725,32 +769,3 @@ margin-top: 200px;
 	padding-bottom: 5px;
 }
 }
-@media screen and (max-width: 1750px) {
-	.slide{
-		box-shadow: none;
-	}
-@media screen and (max-width: 1200px) {
-	#section1{
-		display: flex;
-		justify-content: center;
-	}
-	#slide{
-		display: flex;
-		justify-content: center;
-		width: 70%;
-		height: 70%;
-	}
-}
-@media screen and (max-width: 1400px) {
-	.section2{ 
-		height: 60%;
-	}
-	@media screen and (max-width: 946px) {
-		.section2{ 
-			height: 85%;
-	}
-@media screen and (max-width: 713px) {
-	.section2{ 
-		height: 85%;
-}
-}}}}
