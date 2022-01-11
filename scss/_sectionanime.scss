@@ -1,0 +1,64 @@
+.section1_anime{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 2px;
+}
+.section1_anime{
+    div{
+        img{
+            width: 330px;
+            height: 100%
+}}}
+.anime_desc{
+   max-width: 90%;
+   text-align: center;
+   color: white;
+}
+.anime_desc{
+    ul{
+        color:white;
+        text-align: left;
+}}
+.anime_desc{
+    ul{
+        li{
+             padding: 35px 10px 10px 10px;
+}}}									
+.anime_desc{
+    ul{
+        li{
+            span{
+                    text-align: start;
+                    margin-left: 40px;
+}}}}
+.section2_anime{
+background-color: rgba(0, 0, 0, 0.5);
+margin: 80px;
+width: 80%;
+border-radius: 2px;
+margin: auto;
+margin-top: 100px;
+}
+.section2_anime_galery{
+    img{
+    width: 250px;
+}
+}
+.section2_anime_galery{
+    img:hover{
+        transition: all 500ms ease-in-out;
+        transform: scale(1.2);
+}}
+#noflex{
+    flex: none;
+}
+
+@media screen and (max-width: 850px) {
+    .section1_anime{
+        width: 100%;
+    }
+}
