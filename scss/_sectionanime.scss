@@ -1,5 +1,8 @@
+//Variables
+$blackbg: rgba(0, 0, 0, 0.5);
+
 .section1_anime{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: $blackbg;
     display: flex;
     height: 100%;
     width: 80%;
@@ -11,7 +14,7 @@
     div{
         img{
             width: 330px;
-            height: 100%
+            height: 100%;
 }}}
 .anime_desc{
    max-width: 90%;
@@ -36,7 +39,7 @@
                     margin-left: 40px;
 }}}}
 .section2_anime{
-background-color: rgba(0, 0, 0, 0.5);
+background-color: $blackbg;
 margin: 80px;
 width: 80%;
 border-radius: 2px;
