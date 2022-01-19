@@ -1,0 +1,9 @@
+$bg: (
+    bg_header: rgba(17, 16, 16, 0.678),
+    bg_azul: rgb(24, 25, 125)
+);
+
+$section2_color: map-get($bg, bg_azul);
+.section2{
+    background-color: $section2_color;
+}

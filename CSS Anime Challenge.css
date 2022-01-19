@@ -112,7 +112,6 @@ header{
 	position: relative;
 	box-shadow: 2px 2px 5px 1px;
 	border-radius: 10px;
-	grid-area: slide;
 	flex-direction: row;
 }
 .slide>div>h2{
@@ -137,135 +136,6 @@ header{
 	height: 100%;
 	width: 110%;
 }
-
-															/*CALENDARIO*/
-.Calendario{
-	width: 150px;
-	height: 340px;
-	color: white;
-	background-color: black;
-	border-radius: 4px;
-	justify-self: start;
-
-}
-
-.Calendario>h3{
-	text-align: center;
-}
-
-.li_calendario>li{
-	flex-wrap: wrap;
-	padding: 10px;
-	margin-left: -15px;
-	display: flex;
-}
-
-.li_calendario>li:hover{
-	border-radius: 4px;
-	background-color: red;
-}
-
-.subli_calendario{
-	position: absolute;
-	list-style: none;
-	width: 200px;
-	margin-top: -15px;
-	margin-left: 100px;
-	border-radius: 4px;
-	display: none;
-}
-.li_calendario li:hover .subli_calendario{
-	background-color: black;
-	display: block;
-}
-.subli_calendario li{
-	padding: 15px 15px 15px 20px ;
-}
-.subli_calendario li:hover{
-	background-color: red;
-}
-
-																			/*section 2*/
-.section2{ 
-	background-color: rgb(24, 25, 125);
-	height: 40%;
-	position: relative;
-	display: flex;
-}
-div>svg{
-	height: 15%;
-}
-
-.galeria{
-	display: flex;
-	width: 99%;
-	margin-left: 0%;
-	margin-bottom: 25%;
-	justify-content:space-evenly;
-}
-
-.galeria>div>img{
-height: 350px;
-width: 230px;
-cursor: pointer;
-border-radius: 20px;
-}
-.galeria>div>a>img{
-	height: 350px;
-	width: 230px;
-	cursor: pointer;
-	border-radius: 20px;
-	}
-.galeria>div>img:hover{
-	transition: all 500ms ease-in-out;
-	transform: scale(1.2);
-}
-.galeria>div>a>img:hover{
-	transition: all 500ms ease-in-out;
-	transform: scale(1.2);
-}
-.recently{
-	font-size: 2.5rem;
-	color: rgb(255, 255, 255);
-	background-color: rgb(24, 25, 125);
-	margin-bottom: 0px;
-	padding-bottom: 20px;
-	padding-left: 70px;
-}
-
-.section2>p{
-	text-align: center;
-	position: absolute;
-	bottom: 5%;
-	left: 44%;
-	color: white;
-	font-size: 1.5rem;
-}
-#galery_cat{
-	display: flex;
-	align-items: center;
-	position: absolute;
-	left: 45.6%;
-	bottom: 0%;
-	height: 50px;
-}
-
-#galery_cat>a>img{
-height: 30px;
-margin: 0px 10px 0px 0px;
-
-}
-
-#galery_cat>a{
-	text-decoration: none;
-	color: white;
-	font-size: 1.3rem;
-}
-																					/*Anime galery info*/
-
-
- 
-
 
 
 
@@ -462,7 +332,6 @@ figure>div> .Logos_Footer:hover> a > img{
 }
 @media screen and (max-width: 499px) {
 	body{
-
 		font-family: 'Montserrat', sans-serif;
 	}			
 
@@ -475,7 +344,7 @@ figure>div> .Logos_Footer:hover> a > img{
 		background-position-x: -300px;
 		background-image: url(./Assets/katana-anime-girl-neon-4k-9s.jpg);
 		background-repeat: no-repeat;
-		background-color:#050A30;
+		background-color:#050a30;
 	}
 
 	#slide{

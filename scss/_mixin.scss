@@ -1,0 +1,4 @@
+@mixin zoom {
+    transition: all 500ms ease-in-out;
+	transform: scale(1.2);
+}
