@@ -51,6 +51,7 @@ margin-top: 100px;
 .section2_anime_galery{
 list-style: none;
 overflow: hidden;
+ul{ padding-left: 0px;
     li{
         position: relative;
         display: inline-block;
@@ -66,7 +67,7 @@ overflow: hidden;
             }
             img{
                 width: 250px;
-}
+}}
 }
 
 #noflex{

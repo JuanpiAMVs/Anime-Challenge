@@ -53,13 +53,17 @@
   overflow: hidden;
 }
 
-.section2_anime_galery li {
+.section2_anime_galery ul {
+  padding-left: 0px;
+}
+
+.section2_anime_galery ul li {
   position: relative;
   display: inline-block;
   margin-bottom: 5px;
 }
 
-.section2_anime_galery span {
+.section2_anime_galery ul span {
   position: absolute;
   bottom: 5px;
   left: 10px;
@@ -70,7 +74,7 @@
   font-size: 0.8rem;
 }
 
-.section2_anime_galery img {
+.section2_anime_galery ul img {
   width: 250px;
 }
 
