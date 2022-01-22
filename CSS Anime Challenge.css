@@ -269,6 +269,8 @@ figure>div> .Logos_Footer:hover> a > img{
 }
 
 .galery_about{
+	position: relative;
+	overflow: hidden;
 	background-color: rgb(255, 255, 255);
 	margin-top:0px;
 	text-align: center;
@@ -279,7 +281,14 @@ figure>div> .Logos_Footer:hover> a > img{
 	align-items: center;
 	justify-content:space-evenly;
 }
-
+.tiktok-embed{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
 										/*////////////////////////////////////////////////////////////////////////media queries////////////////////////////////////////*/
 
 @media screen and (max-width: 1750px) {
@@ -312,6 +321,12 @@ figure>div> .Logos_Footer:hover> a > img{
 		height: 70%;
 }
 }
+@media screen and (max-width: 995px) {
+	.projects{
+		width: 100%;
+	}
+}
+
 @media screen and (max-width: 946px) {
 	body{
 		background-size: 310%;
@@ -329,7 +344,13 @@ figure>div> .Logos_Footer:hover> a > img{
 	.section2{ 
 		height: 85%;
 }
+
 }
+
+@media (max-width: 576px){
+.container, .container-sm {
+    max-width: 100%;
+}}
 @media screen and (max-width: 499px) {
 	body{
 		font-family: 'Montserrat', sans-serif;

@@ -48,15 +48,30 @@
   margin-top: 100px;
 }
 
-.section2_anime_galery img {
-  width: 250px;
+.section2_anime_galery {
+  list-style: none;
+  overflow: hidden;
 }
 
-.section2_anime_galery img:hover {
-  -webkit-transition: all 500ms ease-in-out;
-  transition: all 500ms ease-in-out;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+.section2_anime_galery li {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.section2_anime_galery span {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  color: white;
+  background-color: #18197d;
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+
+.section2_anime_galery img {
+  width: 250px;
 }
 
 #noflex {
