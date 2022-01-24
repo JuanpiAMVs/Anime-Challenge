@@ -39,13 +39,20 @@ $bg_azul: rgb(24, 25, 125);
                     text-align: start;
                     margin-left: 40px;
 }}}}
+
+.difficulty{
+ max-width: 81%;
+ margin: auto;
+ padding-top: 50px;
+}
+
 .section2_anime{
 background-color: $blackbg;
 margin: 80px;
 width: 80%;
 border-radius: 2px;
 margin: auto;
-margin-top: 100px;
+margin-top: 70px;
 }
 
 .section2_anime_galery{

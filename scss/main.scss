@@ -1,4 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap');
 @import "variables";
-@import "sectionanime";
 @import "mixin";
+@import "nav";
+@import "index";
+@import "sectionanime";
 @import "_section2";
+@import "form";
+@import "projects";
+@import "episode";
+@import "media";
+
+#index{
+    background-image: linear-gradient(to bottom, #2525a169, #302b63, #0f0c299f),url(../Assets/katana-anime-girl-neon-4k-9s.jpg);
+    font-family: 'Montserrat', sans-serif;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-color:#050A30;
+}
+
+body{
+	height: 1%;
+	background-image: url(../Assets/katana-anime-girl-neon-4k-9s.jpg);
+	font-family: 'Montserrat', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color:#050A30;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+header{
+    background: rgba(17, 16, 16, 0.678) ;
+}
+
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}

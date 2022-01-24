@@ -1,0 +1,39 @@
+/*nav*/
+#nav {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.title {
+  color: #edf0f1;
+}
+
+.nav_list a {
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.nav_list a:hover {
+  color: #a90000;
+}
+
+#Start_Challenge {
+  color: #18197d;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#Start_Challenge1 {
+  text-decoration: none;
+  color: red;
+  background-color: purple;
+  border-radius: 20px;
+  padding: 10px;
+}
+/*# sourceMappingURL=nav.css.map */

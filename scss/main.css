@@ -1,5 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap");
 .section2 {
   background-color: #18197d;
+}
+
+/*nav*/
+#nav {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.title {
+  color: #edf0f1;
+}
+
+.nav_list a {
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.nav_list a:hover {
+  color: #a90000;
+}
+
+#Start_Challenge {
+  color: #18197d;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#Start_Challenge1 {
+  text-decoration: none;
+  color: red;
+  background-color: purple;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.section1 {
+  padding: 20px;
+}
+
+/*GUIDE*/
+.guide {
+  background-color: rgba(0, 0, 0, 0.315);
+  width: auto;
+  height: auto;
+  -webkit-box-shadow: 2px 2px 5px 1px;
+          box-shadow: 2px 2px 5px 1px;
+}
+
+.guide ol li {
+  padding: 20px 10px;
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 0 0 5px #00b2ff, 0 0 10px #00b2ff, 0 0 20px #00b2ff, 0 0 40px #26687f, 0 0 80px #26687f, 0 0 90px #26687f, 0 0 100px #26687f, 0 0 140px #26687f, 0 0 180px #26687f;
+}
+
+/*SLIDE*/
+.slide {
+  width: 80%;
+  overflow: hidden;
+  position: relative;
+  -webkit-box-shadow: 2px 2px 5px 1px;
+          box-shadow: 2px 2px 5px 1px;
+  border-radius: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.slide div h2 {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 20px;
+  left: 40%;
+  color: white;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0;
+}
+
+.slide ul {
+  width: 490%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-animation: cambio 25s infinite alternate;
+          animation: cambio 25s infinite alternate;
+  height: 100%;
+  margin: 0;
+}
+
+.slide ul li img {
+  height: 100%;
+  width: 110%;
+}
+
+/*footer index*/
+footer {
+  margin-top: 100px;
+  margin: 0px,0,0,0;
+}
+
+figure {
+  width: 100%;
+  height: 540px;
+  overflow: hidden;
+  margin-left: 0px;
+  margin-top: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.PruebaImagen {
+  margin-right: 50px;
+  width: 90%;
+  height: 100%;
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  margin-left: 35px;
+}
+
+.Logos_Footer {
+  position: relative;
+}
+
+.capa {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 48%;
+  left: 48%;
+  width: 10%;
+  height: 10%;
+  background: #01677b;
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.Logos_Footer:hover .capa {
+  cursor: pointer;
+  visibility: visible;
+  opacity: 1;
+}
+
+.capa a img {
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  width: 100px;
+  height: 100px;
+}
+
+.Logos_Footer:hover a img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .section1_anime {
@@ -39,13 +218,19 @@
   margin-left: 40px;
 }
 
+.difficulty {
+  max-width: 81%;
+  margin: auto;
+  padding-top: 50px;
+}
+
 .section2_anime {
   background-color: rgba(0, 0, 0, 0.5);
   margin: 80px;
   width: 80%;
   border-radius: 2px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .section2_anime_galery {
@@ -183,5 +368,549 @@ div svg {
   text-decoration: none;
   color: white;
   font-size: 1.3rem;
+}
+
+/*FORM*/
+.form {
+  background-color: rgba(255, 255, 255, 0.466);
+  width: 400px;
+  max-width: 90%;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 200px;
+  padding: 8px 8px;
+  -webkit-box-shadow: 0 5px 10px -10px black;
+          box-shadow: 0 5px 10px -10px black;
+  text-align: center;
+  position: relative;
+}
+
+.form h1 {
+  font-size: 2.5rem;
+}
+
+.Create_Account {
+  position: absolute;
+  right: 10px;
+  bottom: -2px;
+}
+
+.Create_Account a {
+  color: #1900ff;
+}
+
+/*projects*/
+.presentation {
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+  text-shadow: 2px 2px 1px black;
+}
+
+.presentation p {
+  font-size: 2rem;
+}
+
+.projects {
+  margin: 0 auto;
+  color: white;
+  width: 80%;
+  height: auto;
+  text-shadow: 2px 2px 1px black;
+}
+
+.projects h1 {
+  text-align: center;
+  margin-top: 100px;
+  text-shadow: 2px 2px 1px black;
+}
+
+.projects_galery {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0px 10px 0px 0px;
+}
+
+.galery_about {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  margin-top: 0px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.tiktok-embed {
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.time {
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.progress {
+  margin: auto;
+  margin-top: 30px;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.episode {
+  width: 50%;
+  margin: auto;
+}
+
+.episode h3 {
+  color: white;
+}
+
+.options {
+  width: auto;
+  text-align: center;
+}
+
+.options ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.options ul li {
+  list-style: none;
+  color: white;
+}
+
+.ep_vid {
+  margin-top: 0px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+/*////////////////////////////////////////////////////////////////////////media queries////////////////////////////////////////*/
+@media screen and (max-width: 1750px) {
+  .slide {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .section2 {
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    background-size: 210%;
+    background-position-x: 20%;
+  }
+  #section1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 70%;
+  }
+  .section2 {
+    height: 70%;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .projects {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 946px) {
+  body {
+    background-size: 310%;
+    background-position-x: 20%;
+  }
+  .section2 {
+    height: 85%;
+  }
+}
+
+@media screen and (max-width: 777px) {
+  .galery_about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 713px) {
+  body {
+    background-size: 380%;
+    background-position-x: 20%;
+  }
+  .section2 {
+    height: 90%;
+  }
+  .container-anime {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-size: 620vh;
+    background-position-x: -1100px;
+    background-image: url(./Assets/katana-anime-girl-neon-4k-9s.jpg);
+    background-repeat: no-repeat;
+    background-color: #050A30;
+  }
+  .section1_anime {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: auto;
+    max-width: 95%;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 2px;
+    height: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section1_anime img {
+    width: 80%;
+    height: 80%;
+  }
+  .anime_desc {
+    text-align: center;
+    color: white;
+    font-size: 0.7rem;
+  }
+  .anime_desc ul {
+    color: white;
+    text-align: left;
+  }
+  .anime_desc ul li {
+    padding: 15px 10px 10px 10px;
+  }
+  .anime_desc ul li span {
+    text-align: start;
+    margin-left: 40px;
+  }
+  .section2_anime {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    border-radius: 2px;
+    margin: auto;
+    margin-top: 200px;
+  }
+  .section2_anime_galery img {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 713px) and (max-width: 576px) {
+  .container, .container-sm {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 713px) and (max-width: 499px) {
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  #section1 {
+    max-width: 105%;
+    display: inline-block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    background-size: 220vh;
+    background-position-x: -300px;
+    background-image: url(./Assets/katana-anime-girl-neon-4k-9s.jpg);
+    background-repeat: no-repeat;
+    background-color: #050a30;
+  }
+  #slide {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .slide {
+    width: 100%;
+    height: 100%;
+  }
+  .slide div h2 {
+    top: 10px;
+    left: 35%;
+    color: white;
+    font-size: 1rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0;
+  }
+  .title {
+    font-size: 1rem;
+  }
+  .section2 {
+    max-width: 100%;
+    display: inline-block;
+  }
+  .guide {
+    margin-top: 15px;
+    margin-left: 0px;
+    max-height: 400px;
+    max-width: 100%;
+  }
+  .logo {
+    height: 30px;
+  }
+  .guide ol li {
+    padding: 20px 0px;
+    font-size: 1rem;
+  }
+  .section2 {
+    height: auto;
+  }
+  .path {
+    height: -35%;
+  }
+  div svg {
+    height: 4%;
+  }
+  .path-sect2 {
+    margin-top: -35px;
+  }
+  .galeria {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    position: relative;
+  }
+  .recently {
+    font-size: 2rem;
+  }
+  .galeria div a img {
+    width: 130px;
+    height: 180px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  .galeria div img {
+    width: 130px;
+    height: 180px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  .section2 {
+    height: auto;
+    display: inline-block;
+  }
+  .section2 p {
+    bottom: 0%;
+    left: 50px;
+    color: white;
+    font-size: 1.5rem;
+  }
+  #galery_cat {
+    left: 15.6%;
+  }
+  #galery_cat a img {
+    height: 30px;
+    margin: 0px 10px 0px 0px;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+  }
+  #galery_cat a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+  }
+  /*footer index*/
+  footer {
+    height: auto;
+    margin: 0px,0,0,0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  figure {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .Logos_Footer {
+    padding-bottom: 25px;
+  }
+  .container_log {
+    background-size: 520vh;
+    background-position-x: -900px;
+    background-image: url(./Assets/katana-anime-girl-neon-4k-9s.jpg);
+    background-repeat: no-repeat;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    height: 100%;
+  }
+  .main_form {
+    height: 520px;
+  }
+  .form {
+    max-width: 90%;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 8px 8px;
+    -webkit-box-shadow: 0 5px 10px -10px black;
+            box-shadow: 0 5px 10px -10px black;
+  }
+  .container_crAcc {
+    background-size: 520vh;
+    background-position-x: -900px;
+    background-image: url(./Assets/katana-anime-girl-neon-4k-9s.jpg);
+    background-repeat: no-repeat;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    height: 100%;
+  }
+  #create {
+    height: 535px;
+  }
+  .container_projects {
+    display: -ms-grid;
+    display: grid;
+    background-size: 1120vh;
+    background-position-x: -900px;
+    background-image: url(./Assets/katana-anime-girl-neon-4k-9s.jpg);
+    background-repeat: no-repeat;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    max-width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 85px 100%;
+        grid-template-rows: 85px 100%;
+    gap: 50px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .main_projects {
+    max-width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    grid-area: main_projects;
+  }
+  .galery_about {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: auto;
+  }
+  .projects {
+    width: auto;
+  }
+  #video {
+    width: 100%;
+  }
+  #Start_Challenge1 {
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #Start_Challenge {
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+#index {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2525a169), color-stop(#302b63), to(#0f0c299f)), url(../Assets/katana-anime-girl-neon-4k-9s.jpg);
+  background-image: linear-gradient(to bottom, #2525a169, #302b63, #0f0c299f), url(../Assets/katana-anime-girl-neon-4k-9s.jpg);
+  font-family: 'Montserrat', sans-serif;
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-color: #050A30;
+}
+
+body {
+  height: 1%;
+  background-image: url(../Assets/katana-anime-girl-neon-4k-9s.jpg);
+  font-family: 'Montserrat', sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #050A30;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background: rgba(17, 16, 16, 0.678);
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 /*# sourceMappingURL=main.css.map */

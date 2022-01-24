@@ -1,0 +1,134 @@
+.section1{
+    padding: 20px;
+}
+                    
+                                                                                /*GUIDE*/
+.guide{
+    background-color: rgba(0, 0, 0, 0.315);
+    width: auto;
+    height: auto;
+    box-shadow: 2px 2px 5px 1px;
+}
+
+.guide{
+    ol{
+        li{
+        padding: 20px 10px;
+        font-size: 1.5rem;
+        color: #fff;
+        text-shadow:
+        0 0 5px rgba(0,178,255,1),
+        0 0 10px rgba(0,178,255,1),
+        0 0 20px rgba(0,178,255,1),
+        0 0 40px rgba(38,104,127,1),
+        0 0 80px rgba(38,104,127,1),
+        0 0 90px rgba(38,104,127,1),
+        0 0 100px rgba(38,104,127,1),
+        0 0 140px rgba(38,104,127,1),
+        0 0 180px rgba(38,104,127,1);
+}}}
+
+
+                                                                                    /*SLIDE*/
+.slide{
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 2px 2px 5px 1px;
+    border-radius: 10px;
+    flex-direction: row;
+}
+.slide{
+    div{
+        h2{
+            position: absolute;
+            display: flex;
+            top: 20px;
+            left: 40%;
+            color: white;
+            flex-direction: row;
+            margin: 0;
+            }
+        }
+    }
+
+.slide{
+    ul{
+        width: 490%;
+        display: flex;
+        animation: cambio 25s infinite alternate;
+        height: 100%;
+        margin: 0;
+        li{
+            img{
+                height: 100%;
+                width: 110%;
+            }
+        }
+        }
+    }
+
+
+                                                                /*footer index*/
+footer{
+    margin-top: 100px;
+    margin:0px,0,0,0;																		
+}
+
+figure {
+    width: 100%;
+    height: 540px;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-top: 400px;
+    display:flex;
+    flex-direction: row;
+    }
+.PruebaImagen{
+    margin-right: 50px;
+    width: 90%;
+    height: 100%;
+    transition: all 500ms ease-out ;
+    margin-left: 35px;
+}
+.Logos_Footer{
+    position: relative;
+}
+.capa{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 48%;
+    left: 48%;
+    width: 10%;
+    height: 10%;
+    background: rgba(1, 103, 123, 1.6);
+    transition: all 500ms ease-out ;
+    opacity: 0;
+    visibility: hidden;
+    }
+
+.Logos_Footer:hover{
+.capa{
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+    }
+}
+.capa{
+    a{
+     img{
+    
+        transition: all 500ms ease-out;
+        width: 100px;
+        height: 100px;
+} }
+}
+.Logos_Footer:hover{
+ a{
+    img{
+   transform: scale(1.05);
+   }
+}
+}
