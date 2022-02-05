@@ -59,7 +59,6 @@
   padding: 20px 10px;
   font-size: 1.5rem;
   color: #fff;
-  text-shadow: 0 0 5px #00b2ff, 0 0 10px #00b2ff, 0 0 20px #00b2ff, 0 0 40px #26687f, 0 0 80px #26687f, 0 0 90px #26687f, 0 0 100px #26687f, 0 0 140px #26687f, 0 0 180px #26687f;
 }
 
 /*SLIDE*/
@@ -500,6 +499,7 @@ div svg {
 }
 
 .options ul {
+  padding: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -522,18 +522,16 @@ div svg {
   width: auto;
   height: auto;
   position: relative;
-  overflow: hidden;
   text-align: center;
 }
 
 .embed-responsive-item {
-  text-align: center;
   position: absolute;
+  text-align: center;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
   border: 0;
+  width: 100%;
 }
 
 .playlist {
@@ -541,6 +539,7 @@ div svg {
   margin-top: 40px;
   width: 13%;
   color: white;
+  text-align: center;
   background-color: black;
 }
 
@@ -554,8 +553,14 @@ div svg {
   padding-top: 15px;
 }
 
-.playlist .row img {
+.playlist .row a {
+  color: white;
+  text-decoration: none;
+}
+
+.playlist .row a img {
   width: 100px;
+  margin-right: 15px;
 }
 
 /*////////////////////////////////////////////////////////////////////////media queries////////////////////////////////////////*/
@@ -929,6 +934,16 @@ div svg {
   font-family: 'Montserrat', sans-serif;
   background-size: 110%;
   background-repeat: no-repeat;
+  background-color: #050A30;
+}
+
+.DemonSlayer {
+  background-image: url(../Assets/cute-nezuko-wallpaper-vobss-8.jpg);
+  font-family: 'Montserrat', sans-serif;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position-x: 40%;
+  background-size: cover;
   background-color: #050A30;
 }
 
