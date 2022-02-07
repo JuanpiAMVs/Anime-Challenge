@@ -9,6 +9,9 @@
 	.section2{ 
 		height: 60%;
 	}
+    .navbar-brand{
+        margin-right: 50px;
+    }
 }
 @media screen and (max-width: 1200px) {
 	body{
@@ -29,6 +32,16 @@
 	.section2{ 
 		height: 70%;
 }
+
+.navbar-brand{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+#about-me{
+    display: none;    
+   }
+
+   
 }
 @media screen and (max-width: 995px) {
 	.projects{
@@ -52,6 +65,10 @@
 		flex-wrap: wrap;
 		flex-direction: column;
 	}
+
+    .navbar-brand{
+        margin-right: 50px;
+    }
 }
 @media screen and (max-width: 713px) {
 	body{
@@ -124,7 +141,12 @@
 @media (max-width: 576px){
     .container, .container-sm {
         max-width: 100%;
-    }}
+    }
+    .navbar-brand{
+        margin-right: 20px;
+        text-align: center;
+    }
+}
 
 
 @media screen and (max-width: 499px) {

@@ -12,6 +12,7 @@
     margin-bottom: 30px;
 }
 .episode{
+    flex-wrap: wrap;
     width: 100%;
     border-radius: 5px;
   margin: auto;
@@ -21,8 +22,10 @@
   }
 }
 .options{
+  
     text-align: center;
     ul{
+        flex-wrap: wrap;
         padding: 5px;
         display: flex;
         justify-content: space-around;
@@ -38,8 +41,9 @@
     }
 }
 .embed-responsive-16by9{
+    min-width: 520px;
     width:auto;
-    height: auto;
+    height: 420px;
     position: relative;
     text-align: center;
 }
@@ -50,15 +54,20 @@
     left: 0;
     border: 0;
     width: 100%;
+    height: 100%;
 }
 
 .playlist{
+    min-width: 250px;
+    max-height: 610px;
+    overflow: auto;
     border-radius: 5px;
     margin-top: 40px;
-    width: 13%;
+    width: 15%;
     color: white;
     text-align: center;
     background-color: black;
+    position: relative;
     span{
         text-align: center;
     }
@@ -77,4 +86,20 @@
         padding-top: 15px;
 
     }
+    .row{
+        a:hover{  
+            transition: all ease-in-out 0.5s;
+            transform: scale(1.1);
+        }
+        }
+
+.arrow{
+    color: white;
+    width: 50px;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: -60px;
+    left: 40%;
+    cursor: pointer;
+}
 }

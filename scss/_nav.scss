@@ -9,6 +9,7 @@
 	color: #edf0f1; 
 }
 
+
 .nav_list{
 	a {
 		text-decoration: none;
@@ -36,3 +37,33 @@
 	border-radius: 20px;
 	padding: 10px;
 }
+
+.nav-link{
+ color: white;
+ margin-right: 30px;
+}
+.navbar-brand{
+	color: white;
+	font-size: 1.7rem;
+	margin-right: 250px;
+}
+.navbar-nav{
+	margin-right: 150px;
+}
+
+#Home{
+	color:rgb(24, 25, 125);
+	background-color:white;
+	border-radius: 20px;
+	padding: 10px;
+	cursor: pointer;}
+
+	.icono{
+		color: white;
+		width: 30px;
+		height: auto;
+	}
+	.navbar-toggler{
+		color: black;
+		background-color: white;
+	}
