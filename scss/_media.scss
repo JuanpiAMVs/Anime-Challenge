@@ -1,10 +1,26 @@
 										/*////////////////////////////////////////////////////////////////////////media queries////////////////////////////////////////*/
-
+@media screen and (max-width: 3840px) {
+    #playlist2{
+        display: none;
+    }
+}
 @media screen and (max-width: 1750px) {
 	.slide{
 		box-shadow: none;
 	}
+
 }
+@media screen and (max-width: 1580px) {
+    .section2_anime_galery{
+        ul{
+            li{
+                    img{
+                        width: 200px;
+        }}
+        }}
+}
+
+
 @media screen and (max-width: 1400px) {
 	.section2{ 
 		height: 60%;
@@ -12,7 +28,24 @@
     .navbar-brand{
         margin-right: 50px;
     }
+    .playlist{
+        display: none;
+    }
+    #playlist2{
+        display: block;
+    }
 }
+@media screen and (max-width: 1266px) {
+
+    .section2_anime_galery{
+        ul{
+            li{
+                    img{
+                        width: 180px;
+        }}
+        }}
+}
+
 @media screen and (max-width: 1200px) {
 	body{
 		background-size: 210%;
@@ -41,7 +74,7 @@
     display: none;    
    }
 
-   
+
 }
 @media screen and (max-width: 995px) {
 	.projects{
@@ -69,12 +102,24 @@
     .navbar-brand{
         margin-right: 50px;
     }
+    #Home{
+        display: none;
+    }
 }
 @media screen and (max-width: 713px) {
 	body{
 		background-size: 380%;
 		background-position-x: 20%;
 	}	
+    
+    .section2_anime_galery{
+        ul{
+            li{
+                    img{
+                        width: 120px;
+        }}
+        }}
+
 	.section2{ 
 		height: 90%;
 }
@@ -129,7 +174,7 @@
         width: 80%;
         border-radius: 2px;
         margin: auto;
-        margin-top: 200px;
+        margin-top: 50px;
         }
 
     .section2_anime_galery{
@@ -149,10 +194,19 @@
 }
 
 
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 500px) {
 	body{
 		font-family: 'Montserrat', sans-serif;
 	}			
+
+    .section2_anime_galery{
+        ul{
+            li{
+                    img{
+                        width: 120px;
+        }}
+        }}
+
 
 	#section1{
 		max-width: 105%;	
@@ -377,6 +431,11 @@
         padding: 0px;
         padding-top: 5px;
         padding-bottom: 5px;
+    }
+    .navbar-brand{
+        margin-right: 20px;
+        margin-left: 0px;
+
     }
     }
 }
