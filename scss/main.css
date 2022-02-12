@@ -969,6 +969,14 @@ div svg {
   .Logos_Footer {
     padding-bottom: 25px;
   }
+  .yt {
+    height: 50px;
+    width: 50px;
+  }
+  .capa a img {
+    height: 50px;
+    width: 50px;
+  }
   .container_log {
     background-size: 520vh;
     background-position-x: -900px;
@@ -1040,7 +1048,7 @@ div svg {
   #video {
     width: 100%;
   }
-  #Start_Challenge1{
+  #Start_Challenge1 {
     padding: 0px;
     padding-top: 5px;
     padding-bottom: 5px;

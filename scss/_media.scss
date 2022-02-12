@@ -381,8 +381,16 @@
     .Logos_Footer{
         padding-bottom: 25px;				
     }
-    
-
+    .yt{
+        height: 50px;
+        width: 50px;
+    }
+    .capa{
+        a{
+            img{height: 50px;
+                width: 50px;}
+        }
+    }
     .container_log{
         background-size: 520vh;
         background-position-x: -900px;
