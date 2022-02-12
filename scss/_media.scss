@@ -25,6 +25,21 @@
 	.section2{ 
 		height: 60%;
 	}
+    .galeria{
+        div{
+            a{
+                img{width: 150px;
+                    height: 250px;}
+            }
+        }
+    }
+
+    .galeria{
+        div{
+            img{width: 150px;
+                    height: 250px;}
+            }
+        }
     .navbar-brand{
         margin-right: 50px;
     }
@@ -61,9 +76,12 @@
 		display: flex;
 		justify-content: center;
 		height: 70%;
+        margin-bottom: 100px;
 	}
 	.section2{ 
 		height: 70%;
+        text-align: center;
+        
 }
 
 .navbar-brand{
@@ -98,6 +116,9 @@
 		flex-wrap: wrap;
 		flex-direction: column;
 	}
+    .PruebaImagen{
+        margin-left: 10px;
+    }
 
     .navbar-brand{
         margin-right: 50px;
@@ -111,6 +132,7 @@
 		background-size: 380%;
 		background-position-x: 20%;
 	}	
+  
     
     .section2_anime_galery{
         ul{

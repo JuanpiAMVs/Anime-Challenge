@@ -357,8 +357,8 @@ div svg {
 .galeria > div > a > img:hover {
   -webkit-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .recently {
@@ -648,6 +648,14 @@ div svg {
   .section2 {
     height: 60%;
   }
+  .galeria div a img {
+    width: 150px;
+    height: 250px;
+  }
+  .galeria div img {
+    width: 150px;
+    height: 250px;
+  }
   .navbar-brand {
     margin-right: 50px;
   }
@@ -686,9 +694,11 @@ div svg {
         -ms-flex-pack: center;
             justify-content: center;
     height: 70%;
+    margin-bottom: 100px;
   }
   .section2 {
     height: 70%;
+    text-align: center;
   }
   .navbar-brand {
     margin-left: 100px;
@@ -726,6 +736,9 @@ div svg {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .PruebaImagen {
+    margin-left: 10px;
   }
   .navbar-brand {
     margin-right: 50px;
@@ -1052,8 +1065,70 @@ div svg {
   background-color: #050A30;
 }
 
+.Sword_Art_Online_Alicization {
+  background-image: url(../Assets/alice.jpg);
+}
+
 .DemonSlayer {
   background-image: url(../Assets/cute-nezuko-wallpaper-vobss-8.jpg);
+  font-family: 'Montserrat', sans-serif;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position-x: 40%;
+  background-size: cover;
+  background-color: #050A30;
+}
+
+.Tokyo_Revengers {
+  background-image: url(/Assets/wp9016814-tokyo-revengers-wallpapers.jpg);
+  font-family: 'Montserrat', sans-serif;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position-x: 40%;
+  background-size: cover;
+  background-color: #050A30;
+}
+
+.Dr_Stone_Stone_Wars {
+  background-image: url(/Assets/Dr.StoneStoneWars.png);
+}
+
+.Wotaku_ni_Koi_wa_Muzukashii {
+  background-image: url(/Assets/thumb-Wotaku_ni_Koi_wa_Muzukashii.png);
+}
+
+.Inuyashiki {
+  background-image: url(/Assets/54e572b30e217a3368c9a41b9877d9f0.jpg);
+  font-family: 'Montserrat', sans-serif;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position-x: 40%;
+  background-size: cover;
+  background-color: #050A30;
+}
+
+.EightySix {
+  background-image: url(/Assets/thumb-86.jpg);
+  font-family: 'Montserrat', sans-serif;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position-x: 40%;
+  background-size: cover;
+  background-color: #050A30;
+}
+
+.MushokuTensei {
+  background-image: url(/Assets/thumb-mushokutensei.jpg);
+  font-family: 'Montserrat', sans-serif;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position-x: 40%;
+  background-size: cover;
+  background-color: #050A30;
+}
+
+.DarwinsGame {
+  background-image: url(/Assets/darwin-wallpapers.jpg);
   font-family: 'Montserrat', sans-serif;
   background-repeat: no-repeat;
   background-size: 90%;
