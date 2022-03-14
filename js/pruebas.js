@@ -5,6 +5,30 @@ console.log(h3.innerText)
 h3.remove() */
 
 
+                                                                /* EVENTOS */
+
+let createAccount = document.getElementById("cr_A");
+createAccount.addEventListener("submit", datos)
+
+function datos (e){
+    e.preventDefault();
+    let form = e.target
+    console.log(form.children[1].value); 
+    console.log(form.children[3].value); 
+    let alert = document.createElement('div');
+    alert.className = "alert alert-primary"
+    let text = document.createElement('p')
+    text.innerHTML = "account created successfully";
+    let create = document.getElementById("create");
+    let formulario = document.getElementById("form");
+    alert.appendChild(text)
+    create.insertBefore(alert, formulario);
+
+}
+
+                                                                        /* DOM */
+
+
 let descriptions = desc("Demon Slayer", "After a family faces demons and only two members survive, Tanjiro and his sister Nezuko, who is slowly turning into a demon, go on a mission to avenge their family.", "Action", 26, 24, 1 )
 
 function desc( nombre, desc, genre, episodes, duration, seasons){
@@ -42,5 +66,3 @@ function desc( nombre, desc, genre, episodes, duration, seasons){
     li3.appendChild(span3);
     li4.appendChild(span4);
 }
-
-  
