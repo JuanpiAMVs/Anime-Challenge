@@ -1,8 +1,4 @@
-/* let h3 = document.getElementById("pruebas")
-console.log(h3.innerText);
-h3.innerHTML = "Fuaaa El Diego <p>Hola</p> <h2>Adios</h2>"
-console.log(h3.innerText)
-h3.remove() */
+
 
 
                                                                 /* EVENTOS */
