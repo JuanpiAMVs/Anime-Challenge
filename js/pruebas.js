@@ -1,4 +1,18 @@
+import * as Toastify from './../node_modules/toastify-js/src/toastify-es.js'
 
+
+let index = document.getElementById('index');
+index.addEventListener("dblclick", ()=>{
+    Toastify.default({       
+        close: true,
+        text: "Erza wants to meet you",
+        destination: 'https://www.patreon.com/juanpiamvs',
+        backgroundColor: 'red',
+        avatar: '../Assets/Erza-Scarlet-E23jUcUYn-b.jpg',     
+        duration: 10000
+        
+        }).showToast();
+})
 
 
                                                                 /* EVENTOS */

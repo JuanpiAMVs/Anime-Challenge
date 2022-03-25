@@ -26,12 +26,10 @@ const login = (e) => {
         }else if (emailLog && claveLog){
             alert('Login Success')
             window.location="../index.html"
-            console.log(claveLog)
-            sessionStorage.setItem('email', JSON.stringify(emailLog))
+            sessionStorage.setItem('email', JSON.stringify(emailLog))      
+          
         }
        
 }
-
-
 
 submit.onclick = login

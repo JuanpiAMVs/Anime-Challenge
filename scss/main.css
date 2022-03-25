@@ -76,6 +76,17 @@
   background-color: white;
 }
 
+.user {
+  color: white;
+  margin-bottom: 0px;
+  font-size: 1.8rem;
+}
+
+#box {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
 .section1 {
   padding: 20px;
 }
@@ -368,6 +379,7 @@ div svg {
   margin-bottom: 0px;
   padding-bottom: 20px;
   padding-left: 70px;
+  font-weight: bold;
 }
 
 .section2 p {
