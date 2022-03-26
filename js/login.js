@@ -10,26 +10,28 @@ let submit = document.getElementById('submit')
 
 const login = (e) => {
     e.preventDefault();
-    emailLog = usuarios.find(usuario => usuario.email === email.value);
-    claveLog = usuarios.find(usuario => usuario.clave === password.value);
+    let emailLog = usuarios.find(usuario => usuario.email === email.value);
+    let find = Object.entries(emailLog)
 
         if(!emailLog){
             let error = document.createElement('h5')
             form.appendChild(error)
             error.innerHTML = "El correo o contraseña ingresado con incorrectos"
-        }else if (!claveLog){
+        }else if (!find){
              let errorClave = document.createElement('h5')
              form.appendChild(errorClave)
              errorClave.innerHTML = "El correo o contraseña ingresado con incorrectoss"
            
     
-        }else if (emailLog && claveLog){
-            alert('Login Success')
-            window.location="../index.html"
-            sessionStorage.setItem('email', JSON.stringify(emailLog))      
+        }else if (emailLog && find){
+            finds()
+            
+            sessionStorage.setItem('email', JSON.stringify(emailLog))       
           
         }
-       
+        function finds ()  {
+          const search = (password.value === find[1][1]) ?  window.location="../index.html" : alert("nelprro")
+       }
 }
 
 submit.onclick = login
