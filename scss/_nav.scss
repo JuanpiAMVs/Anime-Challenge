@@ -46,11 +46,9 @@
 .navbar-brand{
 	color: white;
 	font-size: 1.7rem;
-	margin-right: 250px;
+
 }
-.navbar-nav{
-	margin-right: 150px;
-}
+
 
 #Home{
 	color:rgb(24, 25, 125);
@@ -76,6 +74,12 @@
 	
 }
 
-#box{
-	box-sizing: content-box;
+
+.drop1:hover{
+	color: white;
+	background-color: blue;
+}
+
+.nav1{
+	text-align: center;
 }
