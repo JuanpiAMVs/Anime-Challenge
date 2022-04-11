@@ -22,8 +22,8 @@ if(user === undefined){
 }
 
 
-
-
+/* 
+                            crea otro array con la nueva clave pero no reemplaza la original */
 function changePassword(newP, numberUser){
     const newPassword = {
         ...usuarios[numberUser],

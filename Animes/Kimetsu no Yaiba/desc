@@ -1,9 +1,10 @@
                                                                        /* DOM */
 
 
-let descriptions = desc("Demon Slayer", "After a family faces demons and only two members survive, Tanjiro and his sister Nezuko, who is slowly turning into a demon, go on a mission to avenge their family.", "Action", 26, 24, 1 )
+let descriptions = desc("Demon Slayer", "After a family faces demons and only two members survive, Tanjiro and his sister Nezuko, who is slowly turning into a demon, go on a mission to avenge their family.", "Action", 26, 24, 1, "1 week", "4 days", "2 days", "tanjiro" )
 
-function desc( nombre, desc, genre, episodes, duration, seasons){
+function desc( nombre, desc, genre, episodes, duration, seasons, horasEasy, horasMedium, horasHard, BTN1class){
+
     let titulo = document.createElement('h1');
     let descr = document.createElement('h2');
     let ul = document.createElement('ul');
@@ -15,6 +16,18 @@ function desc( nombre, desc, genre, episodes, duration, seasons){
     let span2 = document.createElement('span');
     let span3 = document.createElement('span');
     let span4 = document.createElement('span');
+    let difficulty = document.createElement('div');
+    let ulBTN = document.createElement('ul');
+    let liBTN1 = document.createElement('li') 
+    let liBTN2 = document.createElement('li') 
+    let liBTN3 = document.createElement('li') 
+    let linkEasy = document.createElement('a')
+    let linkMedium = document.createElement('a')
+    let linkHard = document.createElement('a')
+    let aEasy = "./Easy/Episode 1.html"
+
+
+    
 
     titulo.className = "fs-2"
     titulo.innerHTML = nombre;
@@ -28,13 +41,32 @@ function desc( nombre, desc, genre, episodes, duration, seasons){
     span3.innerHTML = duration;
     li4.innerHTML = "Seasons"
     span4.innerHTML = seasons;
- 
-
+    ul.className = "col-xxl-7 ulDesc"
+    ulBTN.className = "col-xxl-5 ulBTN"
+    difficulty.className = "difficulty d-flex flex-row  justify-content-evenly"
+    liBTN1.className = "btn btn-primary " + BTN1class
+    linkEasy.innerHTML = "Easy / " + horasEasy;
+    liBTN2.innerHTML = "Medium / " + horasMedium;
+    liBTN2.className = "btn btn-dark"
+    liBTN3.className = "btn btn-danger"
+    liBTN3.innerHTML = "Hard / " + horasHard;
+    linkEasy.setAttribute("href", aEasy)
     let padreTitulo = document.querySelector('.anime_desc');
-    padreTitulo.append(titulo, descr, ul)
+    difficulty.append(ul, ulBTN)
+
+
+
+    padreTitulo.append(titulo, descr, difficulty)
     ul.append(li1, li2, li3, li4)
     li1.appendChild(span1);
     li2.appendChild(span2);
     li3.appendChild(span3);
     li4.appendChild(span4);
+    liBTN1.appendChild(linkEasy);
+    liBTN2.appendChild(linkMedium);
+    liBTN2.appendChild(linkHard);
+
+    
+    ulBTN.append(liBTN1, liBTN2, liBTN3)
+
 }

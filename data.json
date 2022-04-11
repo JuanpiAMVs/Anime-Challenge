@@ -1,0 +1,19 @@
+
+[
+    {"nombre": "EightySix",
+     "description": "Shin, captain of a squad made up of the 86, fights relentlessly on a battlefield where the only thing that awaits him is death.", 
+     "Genre": "Action",
+     "Episodes": "11",
+     "Duration": "24",
+     "Seasons": "2",
+     "Easy": "1 week",
+     "Medium" : "4 days",
+     "Hard": "2 days"
+    }
+,
+     {"nombre": "DemonSlayer",
+      "description": "After a family faces demons and only two members survive, Tanjiro and his sister Nezuko, who is slowly turning into a demon, go on a mission to avenge their family."}
+      ,
+      {"name": "adsaasdsada",
+        "description": "asdasdadsasd"}
+]

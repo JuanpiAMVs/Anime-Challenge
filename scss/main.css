@@ -256,8 +256,22 @@ figure {
   text-align: left;
 }
 
-.anime_desc ul li {
+.ulDesc li {
   padding: 35px 10px 10px 10px;
+}
+
+.ulBTN {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ulBTN li {
+  list-style: none;
 }
 
 .anime_desc ul li span {
@@ -265,8 +279,20 @@ figure {
   margin-left: 40px;
 }
 
+.background-btn {
+  width: 55%;
+  max-width: 55%;
+  font-size: 1.4rem;
+  padding: 25px;
+  margin: 10px;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 0 0 7px #090cbb, 0 0 10px #7700ff, 0 0 21px #fff, 0 0 42px #0400ff, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+  background-size: cover;
+  background-position: 60% 40%;
+}
+
 .difficulty {
-  max-width: 81%;
   margin: auto;
   padding-top: 50px;
 }
