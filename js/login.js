@@ -25,7 +25,7 @@ const login = (e) => {
     
         }else if (emailLog && find){
             finds()
-            sessionStorage.setItem('email', JSON.stringify(emailLog))       
+            localStorage.setItem('email', JSON.stringify(emailLog))       
           
         }
         function finds ()  {

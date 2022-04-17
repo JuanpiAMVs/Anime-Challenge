@@ -1,6 +1,1 @@
-{ 
-  "type":"module",
-  "dependencies": {
-    "toastify-js": "^1.11.2"
-  }
-}
+{"type":"module","dependencies":{"jsdom":"^19.0.0","toastify-js":"^1.11.2"}}

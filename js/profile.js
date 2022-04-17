@@ -4,7 +4,7 @@ const user = document.createElement('p')
 search.appendChild(user)
 user.className = "user"
 
-const userNameJson = JSON.parse(sessionStorage.getItem('email'))
+const userNameJson = JSON.parse(localStorage.getItem('email'))
 const {clave:contraseña} = userNameJson
 console.log(contraseña)
 user.innerHTML = userNameJson.email[0].toUpperCase();
@@ -24,7 +24,7 @@ if(user === undefined){
 
 /* 
                             crea otro array con la nueva clave pero no reemplaza la original */
-function changePassword(newP, numberUser){
+/* function changePassword(newP, numberUser){
     const newPassword = {
         ...usuarios[numberUser],
         clave: newP,
@@ -33,4 +33,4 @@ function changePassword(newP, numberUser){
     console.log(newPassword)
 }
 
-changePassword("mondongo", 0)
+changePassword("mondongo", 0) */

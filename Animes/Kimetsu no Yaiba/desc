@@ -1,7 +1,7 @@
                                                                        /* DOM */
 
 
-let descriptions = desc("Demon Slayer", "After a family faces demons and only two members survive, Tanjiro and his sister Nezuko, who is slowly turning into a demon, go on a mission to avenge their family.", "Action", 26, 24, 1, "1 week", "4 days", "2 days", "tanjiro" )
+/* let descriptions = desc("Demon Slayer", "After a family faces demons and only two members survive, Tanjiro and his sister Nezuko, who is slowly turning into a demon, go on a mission to avenge their family.", "Action", 26, 24, 1, "1 week", "4 days", "2 days", "tanjiro" )
 
 function desc( nombre, desc, genre, episodes, duration, seasons, horasEasy, horasMedium, horasHard, BTN1class){
 
@@ -69,4 +69,4 @@ function desc( nombre, desc, genre, episodes, duration, seasons, horasEasy, hora
     
     ulBTN.append(liBTN1, liBTN2, liBTN3)
 
-}
+} */
