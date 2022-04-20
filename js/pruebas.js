@@ -17,7 +17,7 @@ index.addEventListener("dblclick", ()=>{
 
                                                                 /* EVENTOS */
 
-let createAccount = document.getElementById("cr_A");
+/* let createAccount = document.getElementById("cr_A");
 createAccount.addEventListener("submit", datos)
 
 function datos (e){
@@ -34,7 +34,7 @@ function datos (e){
     alert.appendChild(text)
     create.insertBefore(alert, formulario);
 
-}
+} */
 
 
 

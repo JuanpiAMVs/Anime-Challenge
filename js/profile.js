@@ -17,9 +17,12 @@ if(user === undefined){
     drop1.innerHTML = "Profile"
     const drop2 = document.getElementById('drop2')
     drop2.innerHTML = "Log out"
-    drop2.addEventListener('click', sessionStorage.clear() )
+    drop2.addEventListener('click', ()=>{
+        localStorage.clear()
+    } )
 
 }
+
 
 
 /* 

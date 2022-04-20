@@ -31,7 +31,7 @@
                     <a class="nav-link"  href="/Sections/project.html">About me</a>
                   </li>
   
-                <form class="d-flex">
+                  <form class="d-flex" id="search">
                   <input class="form-control me-2" type="search" placeholder="Search Anime" aria-label="Search">
                   <button class="btn btn-outline-light me-4" type="submit">Search</button>
                 </form>
@@ -45,8 +45,8 @@
                   </a> 
   
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="/Sections/account.html">Log in</a></li>
-                    <li><a class="dropdown-item" href="/Sections/create_account.html">Create Account</a></li>
+                    <li><a class="dropdown-item drop1"  id= "drop1" href="/Sections/account.html">Log in</a></li>
+                    <li><a class="dropdown-item drop1"  id= "drop2" href="/Sections/create_account.html">Register</a></li>
                   </ul>
                 </li>
               </ul>
@@ -56,8 +56,7 @@
         </header>	
       </div>
     <div class="container-fluid">
-      <div class="row time">
-        168:00:00
+      <div class="row time" id="reloj">
       </div>
       <div class="progress">
           <div class="progress-bar" role="progressbar" style="width: 80.76%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -106,7 +105,8 @@
         </div>
     </div>
       
-          
+    <script src="/js/reloj.js" async></script>
+    <script src="/js/profile.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

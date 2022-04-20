@@ -1,3 +1,10 @@
+const Days7 = 604800000;
+const Days6 = 518400000;
+const Days5 = 432000000;
+const Days4 = 345600000;
+const Days3 = 259200000;
+const Days2 = 172800000;
+const Days1 = 86400000;
 setTimeout(()=>{
         let week = document.getElementsByClassName('week');
         console.log(week)
@@ -8,7 +15,7 @@ setTimeout(()=>{
             localStorage.setItem("fechactual", now.toString());
             localStorage.setItem('fechafutura', suma)
 
-            fecha(604800000);
+            fecha(Days7);
             window.location = "Easy/Episode 1.html";      
               
         })    
@@ -34,9 +41,10 @@ setTimeout(()=>{
                 }
 const updateTime = setInterval ( () => {
  const reloj = document.getElementById('reloj');
- tiempo = fecha(604800000)
+ tiempo = fecha(Days7)
  reloj.innerHTML = tiempo.dias + ':D ' + tiempo.horas + 'H ' + tiempo.minutos + 'M ' + tiempo.segundos + 's ';
  if(tiempo.remainTime <= 1){
  clearInterval(updateTime)
 }                        
 }, 1000)
+

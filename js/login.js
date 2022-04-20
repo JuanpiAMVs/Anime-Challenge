@@ -7,7 +7,7 @@ let email = document.getElementById('exampleInputEmail1')
 let password = document.getElementById('exampleInputPassword1')
 let form = document.getElementById('form')
 let submit = document.getElementById('submit')
-console.log( password?.value || "Clave no ingresada")
+console.log( password?.value || "Usuario no logueado")
 const login = (e) => {
     e.preventDefault();
     let emailLog = usuarios.find(usuario => usuario.email === email.value);
